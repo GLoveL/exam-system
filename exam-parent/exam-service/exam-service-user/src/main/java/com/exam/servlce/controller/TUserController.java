@@ -20,7 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/servlce/t-user")
-@CrossOrigin //解决跨域问题 1.协议问题
+@CrossOrigin //解决跨域问题 1.协议问题dsfds
 public class TUserController {
 
     @Autowired
