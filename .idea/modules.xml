@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-common/exam-common.iml" filepath="$PROJECT_DIR$/exam-parent/exam-common/exam-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-common-db/exam-common-db.iml" filepath="$PROJECT_DIR$/exam-parent/exam-common-db/exam-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-eureka/exam-eureka.iml" filepath="$PROJECT_DIR$/exam-parent/exam-eureka/exam-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-getewey/exam-getewey.iml" filepath="$PROJECT_DIR$/exam-parent/exam-getewey/exam-getewey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-parent.iml" filepath="$PROJECT_DIR$/exam-parent/exam-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-service/exam-service.iml" filepath="$PROJECT_DIR$/exam-parent/exam-service/exam-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-service/exam-service-user/exam-service-user.iml" filepath="$PROJECT_DIR$/exam-parent/exam-service/exam-service-user/exam-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-swagger/exam-swagger.iml" filepath="$PROJECT_DIR$/exam-parent/exam-swagger/exam-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exam-system.iml" filepath="$PROJECT_DIR$/.idea/exam-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-web/exam-web.iml" filepath="$PROJECT_DIR$/exam-parent/exam-web/exam-web.iml" />
+    </modules>
+  </component>
+</project>

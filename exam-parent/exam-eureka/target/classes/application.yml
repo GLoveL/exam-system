@@ -1,0 +1,18 @@
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    #是否向注册中心注册自己
+    register-with-eureka: false
+    #是否从注册中心查询服务
+    fetch-registry: false
+    #注册中心地址
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: eureka
+

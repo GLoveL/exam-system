@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam-swagger" />
+        <module name="exam-common-db" />
+        <module name="exam-common" />
+        <module name="exam-service-user" />
+        <module name="exam-web" />
+        <module name="exam-eureka" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exam-common" target="1.8" />
+      <module name="exam-common-db" target="1.8" />
+      <module name="exam-eureka" target="1.8" />
+      <module name="exam-getewey" target="1.8" />
+      <module name="exam-parent" target="1.8" />
+      <module name="exam-sercive-use" target="1.8" />
+      <module name="exam-service" target="1.8" />
+      <module name="exam-service-api" target="1.8" />
+      <module name="exam-service-use-api" target="1.8" />
+      <module name="exam-service-user" target="1.8" />
+      <module name="exam-service-user-api" target="1.8" />
+      <module name="exam-swagger" target="1.8" />
+      <module name="exam-web" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exam-common" options="-parameters" />
+      <module name="exam-common-db" options="-parameters" />
+      <module name="exam-eureka" options="-parameters" />
+      <module name="exam-getewey" options="-parameters" />
+      <module name="exam-sercive-use" options="-parameters" />
+      <module name="exam-service" options="-parameters" />
+      <module name="exam-service-api" options="-parameters" />
+      <module name="exam-service-use-api" options="-parameters" />
+      <module name="exam-service-user" options="-parameters" />
+      <module name="exam-service-user-api" options="-parameters" />
+      <module name="exam-swagger" options="-parameters" />
+      <module name="exam-web" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/examdb?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&&serverTimezone=GMT%2b8
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: uuid
+    logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+  logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
